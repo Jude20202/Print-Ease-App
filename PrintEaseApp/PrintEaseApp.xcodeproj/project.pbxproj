@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A8F9A954BBC45559A4EE21A /* Views/Analytics/AnalyticsGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32429AD903034D63853998C6 /* Views/Analytics/AnalyticsGateView.swift */; };
+		0C48EDF1E77440E0B5F55522 /* Views/Dashboard/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415463EE85B84E8ABDB75AD2 /* Views/Dashboard/SettingsView.swift */; };
+		1CAD39CF899F4B898A5E5E42 /* Views/Setup/BluetoothStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2043AB2EEF94F909506C17E /* Views/Setup/BluetoothStepView.swift */; };
+		24625032EF34423E81F03B62 /* Views/Analytics/UsageChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3520C28784E53BBD3E89A /* Views/Analytics/UsageChartView.swift */; };
+		38B1F00AF8AB4CCD80D267CE /* Views/Setup/DeviceDetectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9991E7522D49FC8296AE64 /* Views/Setup/DeviceDetectedView.swift */; };
+		6FC147944F414894AFD41014 /* Theme/AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D011CB75941FCB3D75248 /* Theme/AppColors.swift */; };
+		74F8100D0A9041BA8A4C1047 /* Views/Setup/UserInfoStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D7223E7EB74CF9B46C6C5C /* Views/Setup/UserInfoStepView.swift */; };
+		792EB79FCD2A4B39A2416272 /* Views/Components/LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2B73D5AC94530B8729F54 /* Views/Components/LogoView.swift */; };
+		7BD4A70DFD394D4B90E06F7C /* PrintEaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AE737EFB0C462CAC115A00 /* PrintEaseApp.swift */; };
+		81506647C74A4B4C8B6F060D /* Models/User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FA21A2BCA44BB18E18F5E4 /* Models/User.swift */; };
+		8C99ABFB3EDC4FF69F7DA93C /* Views/Setup/StepIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585AC6CD04F4B33A3B3AD85 /* Views/Setup/StepIndicatorView.swift */; };
+		8E004F2A79CB4D508A4758A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7438E165FE8946A68889EF43 /* Assets.xcassets */; };
+		8F29D870D72F4F2BA119C768 /* Views/Analytics/PaymentSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CB6114DE3C43379B6AAEE9 /* Views/Analytics/PaymentSheetView.swift */; };
+		903FF56B9F794DB6B196498B /* Models/MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1DFC6C593C4DCF876C4E47 /* Models/MockData.swift */; };
+		932C453284944E7396529669 /* Models/Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE199F6A294D7EA0E9F39D /* Models/Device.swift */; };
+		A890F88CE0CC4302A42E87D6 /* Views/Components/BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C3780C7B4D4C6AB511BE58 /* Views/Components/BadgeView.swift */; };
+		BB4D356F72B44A05923194CC /* Views/Components/KpiCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD46C18AA71947D59371987C /* Views/Components/KpiCardView.swift */; };
+		C20AF3A33D50477F9E3372F4 /* Views/Dashboard/HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1DFD03EEF84C84A023D9E5 /* Views/Dashboard/HomeView.swift */; };
+		C3184D70F7E74428BE2512DA /* Views/Setup/SuccessStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC485C92184E6FA072456C /* Views/Setup/SuccessStepView.swift */; };
+		CD87D937D3864F7EB651893C /* Views/Dashboard/DashboardTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6348C4A734747AFD82EB9 /* Views/Dashboard/DashboardTabView.swift */; };
+		D0E2CA0D889749038AA1C1AF /* Views/Analytics/AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F41AE8AD384C4EA3534A07 /* Views/Analytics/AnalyticsView.swift */; };
+		D8837E6388CC44E2968AB762 /* Views/Setup/WifiConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA1145144E46FF82E7D441 /* Views/Setup/WifiConfigView.swift */; };
+		DC2B01223B73428B9E0D31A0 /* Views/Dashboard/PrintersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E494CC4CF04909886552AE /* Views/Dashboard/PrintersView.swift */; };
+		DC863C4C3DD74AC78AC490F9 /* Views/Setup/SetupContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352A478C8A2143DBAD82526B /* Views/Setup/SetupContainerView.swift */; };
+		E06BDB781F4E43EBAD655057 /* Views/Setup/WelcomeStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B2868AE50541FAACC06659 /* Views/Setup/WelcomeStepView.swift */; };
+		EF3C4A481E124E40B0FBC481 /* Theme/AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D9E8818238432AACFA4CC3 /* Theme/AppFonts.swift */; };
+		F46FA1E4FB824A9388501D53 /* Views/Analytics/TopUsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E5DC246A84444B99BB2FA /* Views/Analytics/TopUsersView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04F41AE8AD384C4EA3534A07 /* Views/Analytics/AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Analytics/AnalyticsView.swift; sourceTree = "<group>"; };
+		11EE199F6A294D7EA0E9F39D /* Models/Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Device.swift; sourceTree = "<group>"; };
+		1A1DFC6C593C4DCF876C4E47 /* Models/MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/MockData.swift; sourceTree = "<group>"; };
+		25FA21A2BCA44BB18E18F5E4 /* Models/User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/User.swift; sourceTree = "<group>"; };
+		32429AD903034D63853998C6 /* Views/Analytics/AnalyticsGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Analytics/AnalyticsGateView.swift; sourceTree = "<group>"; };
+		352A478C8A2143DBAD82526B /* Views/Setup/SetupContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Setup/SetupContainerView.swift; sourceTree = "<group>"; };
+		35E494CC4CF04909886552AE /* Views/Dashboard/PrintersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Dashboard/PrintersView.swift; sourceTree = "<group>"; };
+		3B461DD254C94002A0DA2B88 /* PrintEaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrintEaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BDC485C92184E6FA072456C /* Views/Setup/SuccessStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Setup/SuccessStepView.swift; sourceTree = "<group>"; };
+		3F3D011CB75941FCB3D75248 /* Theme/AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme/AppColors.swift; sourceTree = "<group>"; };
+		40A2B73D5AC94530B8729F54 /* Views/Components/LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Components/LogoView.swift; sourceTree = "<group>"; };
+		415463EE85B84E8ABDB75AD2 /* Views/Dashboard/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Dashboard/SettingsView.swift; sourceTree = "<group>"; };
+		43D7223E7EB74CF9B46C6C5C /* Views/Setup/UserInfoStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Setup/UserInfoStepView.swift; sourceTree = "<group>"; };
+		5C9991E7522D49FC8296AE64 /* Views/Setup/DeviceDetectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Setup/DeviceDetectedView.swift; sourceTree = "<group>"; };
+		7438E165FE8946A68889EF43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7585AC6CD04F4B33A3B3AD85 /* Views/Setup/StepIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Setup/StepIndicatorView.swift; sourceTree = "<group>"; };
+		75D9E8818238432AACFA4CC3 /* Theme/AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme/AppFonts.swift; sourceTree = "<group>"; };
+		77C3780C7B4D4C6AB511BE58 /* Views/Components/BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Components/BadgeView.swift; sourceTree = "<group>"; };
+		7D1DFD03EEF84C84A023D9E5 /* Views/Dashboard/HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Dashboard/HomeView.swift; sourceTree = "<group>"; };
+		916E5DC246A84444B99BB2FA /* Views/Analytics/TopUsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Analytics/TopUsersView.swift; sourceTree = "<group>"; };
+		98B2868AE50541FAACC06659 /* Views/Setup/WelcomeStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Setup/WelcomeStepView.swift; sourceTree = "<group>"; };
+		AFFA1145144E46FF82E7D441 /* Views/Setup/WifiConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Setup/WifiConfigView.swift; sourceTree = "<group>"; };
+		B1CB6114DE3C43379B6AAEE9 /* Views/Analytics/PaymentSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Analytics/PaymentSheetView.swift; sourceTree = "<group>"; };
+		B2043AB2EEF94F909506C17E /* Views/Setup/BluetoothStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Setup/BluetoothStepView.swift; sourceTree = "<group>"; };
+		B6AE737EFB0C462CAC115A00 /* PrintEaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintEaseApp.swift; sourceTree = "<group>"; };
+		BD46C18AA71947D59371987C /* Views/Components/KpiCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Components/KpiCardView.swift; sourceTree = "<group>"; };
+		C3A6348C4A734747AFD82EB9 /* Views/Dashboard/DashboardTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Dashboard/DashboardTabView.swift; sourceTree = "<group>"; };
+		C6F3520C28784E53BBD3E89A /* Views/Analytics/UsageChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Analytics/UsageChartView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		476D75F267DD40C8913DEDF4 /* PrintEaseApp */ = {
+			isa = PBXGroup;
+			children = (
+				11EE199F6A294D7EA0E9F39D /* Models/Device.swift */,
+				1A1DFC6C593C4DCF876C4E47 /* Models/MockData.swift */,
+				25FA21A2BCA44BB18E18F5E4 /* Models/User.swift */,
+				B6AE737EFB0C462CAC115A00 /* PrintEaseApp.swift */,
+				3F3D011CB75941FCB3D75248 /* Theme/AppColors.swift */,
+				75D9E8818238432AACFA4CC3 /* Theme/AppFonts.swift */,
+				32429AD903034D63853998C6 /* Views/Analytics/AnalyticsGateView.swift */,
+				04F41AE8AD384C4EA3534A07 /* Views/Analytics/AnalyticsView.swift */,
+				B1CB6114DE3C43379B6AAEE9 /* Views/Analytics/PaymentSheetView.swift */,
+				916E5DC246A84444B99BB2FA /* Views/Analytics/TopUsersView.swift */,
+				C6F3520C28784E53BBD3E89A /* Views/Analytics/UsageChartView.swift */,
+				77C3780C7B4D4C6AB511BE58 /* Views/Components/BadgeView.swift */,
+				BD46C18AA71947D59371987C /* Views/Components/KpiCardView.swift */,
+				40A2B73D5AC94530B8729F54 /* Views/Components/LogoView.swift */,
+				C3A6348C4A734747AFD82EB9 /* Views/Dashboard/DashboardTabView.swift */,
+				7D1DFD03EEF84C84A023D9E5 /* Views/Dashboard/HomeView.swift */,
+				35E494CC4CF04909886552AE /* Views/Dashboard/PrintersView.swift */,
+				415463EE85B84E8ABDB75AD2 /* Views/Dashboard/SettingsView.swift */,
+				B2043AB2EEF94F909506C17E /* Views/Setup/BluetoothStepView.swift */,
+				5C9991E7522D49FC8296AE64 /* Views/Setup/DeviceDetectedView.swift */,
+				352A478C8A2143DBAD82526B /* Views/Setup/SetupContainerView.swift */,
+				7585AC6CD04F4B33A3B3AD85 /* Views/Setup/StepIndicatorView.swift */,
+				3BDC485C92184E6FA072456C /* Views/Setup/SuccessStepView.swift */,
+				43D7223E7EB74CF9B46C6C5C /* Views/Setup/UserInfoStepView.swift */,
+				98B2868AE50541FAACC06659 /* Views/Setup/WelcomeStepView.swift */,
+				AFFA1145144E46FF82E7D441 /* Views/Setup/WifiConfigView.swift */,
+				7438E165FE8946A68889EF43 /* Assets.xcassets */,
+				BFCC7A5B49C947B2A2F9BB77 /* Products */,
+			);
+			path = PrintEaseApp;
+			sourceTree = "<group>";
+		};
+		BFCC7A5B49C947B2A2F9BB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B461DD254C94002A0DA2B88 /* PrintEaseApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC41ECFB9AB54D7ABECAA120 /* PrintEaseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17FDBE7511964E368E16BF50 /* Build configuration list for PBXNativeTarget "PrintEaseApp" */;
+			buildPhases = (
+				37F5194BCB3E43618D8668D2 /* Sources */,
+				FB7847BA65F14B73A1604806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrintEaseApp;
+			productName = PrintEaseApp;
+			productReference = 3B461DD254C94002A0DA2B88 /* PrintEaseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF948506B0B14F4D94D4C105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1431B5E9B0544FFBAAB92BBF /* Build configuration list for PBXProject "PrintEaseApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 476D75F267DD40C8913DEDF4 /* PrintEaseApp */;
+			productRefGroup = BFCC7A5B49C947B2A2F9BB77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC41ECFB9AB54D7ABECAA120 /* PrintEaseApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB7847BA65F14B73A1604806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E004F2A79CB4D508A4758A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37F5194BCB3E43618D8668D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932C453284944E7396529669 /* Models/Device.swift in Sources */,
+				903FF56B9F794DB6B196498B /* Models/MockData.swift in Sources */,
+				81506647C74A4B4C8B6F060D /* Models/User.swift in Sources */,
+				7BD4A70DFD394D4B90E06F7C /* PrintEaseApp.swift in Sources */,
+				6FC147944F414894AFD41014 /* Theme/AppColors.swift in Sources */,
+				EF3C4A481E124E40B0FBC481 /* Theme/AppFonts.swift in Sources */,
+				0A8F9A954BBC45559A4EE21A /* Views/Analytics/AnalyticsGateView.swift in Sources */,
+				D0E2CA0D889749038AA1C1AF /* Views/Analytics/AnalyticsView.swift in Sources */,
+				8F29D870D72F4F2BA119C768 /* Views/Analytics/PaymentSheetView.swift in Sources */,
+				F46FA1E4FB824A9388501D53 /* Views/Analytics/TopUsersView.swift in Sources */,
+				24625032EF34423E81F03B62 /* Views/Analytics/UsageChartView.swift in Sources */,
+				A890F88CE0CC4302A42E87D6 /* Views/Components/BadgeView.swift in Sources */,
+				BB4D356F72B44A05923194CC /* Views/Components/KpiCardView.swift in Sources */,
+				792EB79FCD2A4B39A2416272 /* Views/Components/LogoView.swift in Sources */,
+				CD87D937D3864F7EB651893C /* Views/Dashboard/DashboardTabView.swift in Sources */,
+				C20AF3A33D50477F9E3372F4 /* Views/Dashboard/HomeView.swift in Sources */,
+				DC2B01223B73428B9E0D31A0 /* Views/Dashboard/PrintersView.swift in Sources */,
+				0C48EDF1E77440E0B5F55522 /* Views/Dashboard/SettingsView.swift in Sources */,
+				1CAD39CF899F4B898A5E5E42 /* Views/Setup/BluetoothStepView.swift in Sources */,
+				38B1F00AF8AB4CCD80D267CE /* Views/Setup/DeviceDetectedView.swift in Sources */,
+				DC863C4C3DD74AC78AC490F9 /* Views/Setup/SetupContainerView.swift in Sources */,
+				8C99ABFB3EDC4FF69F7DA93C /* Views/Setup/StepIndicatorView.swift in Sources */,
+				C3184D70F7E74428BE2512DA /* Views/Setup/SuccessStepView.swift in Sources */,
+				74F8100D0A9041BA8A4C1047 /* Views/Setup/UserInfoStepView.swift in Sources */,
+				E06BDB781F4E43EBAD655057 /* Views/Setup/WelcomeStepView.swift in Sources */,
+				D8837E6388CC44E2968AB762 /* Views/Setup/WifiConfigView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		48125916AB4A42879C4E8593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				DEVELOPMENT_TEAM = 9RUQ8S4YLK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.printease.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		52EEFD561E054F24894927D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B8483BA5A1894F6D805460BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				DEVELOPMENT_TEAM = 9RUQ8S4YLK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.printease.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C4738DF9A35A4B3BB9E032E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1431B5E9B0544FFBAAB92BBF /* Build configuration list for PBXProject "PrintEaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EEFD561E054F24894927D8 /* Debug */,
+				C4738DF9A35A4B3BB9E032E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17FDBE7511964E368E16BF50 /* Build configuration list for PBXNativeTarget "PrintEaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8483BA5A1894F6D805460BC /* Debug */,
+				48125916AB4A42879C4E8593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF948506B0B14F4D94D4C105 /* Project object */;
+}
